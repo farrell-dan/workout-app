@@ -18,7 +18,7 @@ app.get("/api/testMongo", async (req, res) => {
 	try {
 		await client.connect();
 		const result = await client
-			.db("workout-app")
+			.db("WorkoutApp")
 			.collection("workouts")
 			.insertOne({ date: "Decmeber 22" });
 
