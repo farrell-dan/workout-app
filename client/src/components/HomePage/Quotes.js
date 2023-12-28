@@ -24,8 +24,7 @@ const Quotes = () => {
 
         
       <div>
-        <h1>Random Quote</h1>
-        {quote && <p>{quote}</p>}
+        {<p>{quote}</p>}
       </div>
     );
   };
