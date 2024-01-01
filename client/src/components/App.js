@@ -7,6 +7,7 @@ import styled from "styled-components";
 
 import NavBar from "./NavBar/NavBar";
 import HomePage from "./HomePage/HomePage";
+import CalendarSection from "./Calendar/Calendar";
 
 const App = () => {
 	return (
@@ -15,6 +16,7 @@ const App = () => {
 			<Switch>
 				<Route path="/" element={< HomePage/>} />
 				<Route path="/workouts" element={<h1>Your workouts</h1>} />
+				<Route path="/calendar" element={< CalendarSection/>} />
 			</Switch>
 		</Router>
 	);
