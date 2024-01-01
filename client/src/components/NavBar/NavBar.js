@@ -81,7 +81,6 @@ const menuItems = [
 
 const StyledNav = styled.nav`
 	display: flex;
-	margin-top: 1rem;
 	width: 100%;
 	justify-content: flex-end;
 	align-items: center;

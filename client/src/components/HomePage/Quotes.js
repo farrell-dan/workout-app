@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import styled from "styled-components";
 
 const Quotes = () => {
     const [quote, setQuote] = useState('');
@@ -24,7 +25,7 @@ const Quotes = () => {
 
         
       <div>
-        {<p>{quote}</p>}
+        {<Container>{quote}</Container>}
       </div>
     );
   };
@@ -32,3 +33,8 @@ const Quotes = () => {
 
 
 export default Quotes;
+
+const Container =styled.p`
+display: flex;
+;
+`
